@@ -50,7 +50,7 @@ export default function IndividualProject(project) {
                 <button className='popup-Close' onClick={hidePopup}><i className="bi bi-x-circle popupClose"></i></button>
               </div>
               
-              <video src={linkVideo} controls="controls" />
+              <img src={linkVideo} style={{width: "50%"}}/>
 
               <div className='popup-informative-text'>
                 <p>{name}</p>

@@ -6,9 +6,9 @@ import '../styles/components/socialMedia.scss';
 export default function SocialMedia() {
   return (
     <section className="social-media">
-      <a href="" target="_blank" rel="noopener noreferrer">
+      {/* <a href="" target="_blank" rel="noopener noreferrer">
         <Icon icon="akar-icons:linkedin-fill" />
-      </a>
+      </a> */}
       <a href="https://github.com/Emanuel-developer992" target="_blank" rel="noopener noreferrer">
         <Icon icon="bi:github" />
       </a>
